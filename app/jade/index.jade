@@ -1,0 +1,60 @@
+
+
+doctype html
+html(lang="ru")
+  head
+    meta(charset="utf-8")
+    meta(http-equiv="x-ua-compatible",content="ie=edge")
+    meta(name="description",content="")
+    meta(name="viewport",content="width=device-width, initial-scale=1")
+    title pageTitle
+    link(href='/css/all.min.css', rel='stylesheet')
+
+    //script(src="js/vendor/modernizr-2.8.3.min.js")
+    
+  body
+    include components/header.jade
+
+    include components/content.jade
+
+    .container
+      .row
+        .col-md-6
+          button(type='button',class="btn btn-primary",data-toggle="modal",data-target=".bs-example-modal-lg") fs
+          div(class="modal fade bs-example-modal-lg",tabindex="-1",role="dialog",aria-labelledby="myLargeModalLabel")
+            .modal-dialog.modal-lg
+              .modal-content dasda
+    .container   
+        .flex
+          .fcol 3 
+          .fcol 3d
+          .fcol 3
+          .fcol 3
+          .fcol 3
+          .fcol 3
+          .fcol 3   
+        .flex
+          .fcol.flex-300 1 
+          .fcol 3d
+          .fcol 3
+          .fcol 3
+          .fcol 3
+          .fcol 3
+          .fcol 3   
+        .flex
+          .fcol 3 
+          .fcol.is-half 3d
+          .fcol 4
+          .fcol 3
+          .fcol 3
+          .fcol 3
+          .fcol 3
+
+    
+
+
+
+
+    include components/footer.jade
+
+
