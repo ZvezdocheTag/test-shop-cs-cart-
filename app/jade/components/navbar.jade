@@ -1,0 +1,21 @@
+include ../libs/bootstrap/navbar
+
+section.service-menu
+	.container
+		.row
+			+navbar("","dropdown_menu")
+				+nav_item("index.html","active") Главная
+				+nav_item("about.html") Верстка
+				+nav_item("contact.html") Разработка
+				+nav_item("contact.html") Продвижение
+				+nav_item("contact.html") Дизайн
+
+			.service-menu__form
+				form.search-form.clearfix
+					input(type="text",class="search-form__input")
+					button(type="submit",class="search-form__btn")
+
+
+
+
+	
