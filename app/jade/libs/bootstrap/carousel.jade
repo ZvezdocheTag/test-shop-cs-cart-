@@ -13,8 +13,8 @@ mixin carousel-caption(item)
 				a.btn.btn-lg.btn-primary(href="#{item.button.url}" role="button") #{item.button.caption}
 
 //- carousel
-mixin carousel(id,items)
-	.carousel.slide(id="carousel-#{id}",data-ride="carousel")
+mixin carousel(id,items,interval)
+	.carousel.slide(id="carousel-#{id}",data-ride="carousel",data-interval="#{interval}")
 		//- Indicators
 		ol.carousel-indicators
 			each item,index in items

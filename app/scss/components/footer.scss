@@ -1,9 +1,29 @@
 .p-footer {
-	background-color: #a5a5a5;
+	
+	&__up {
+		background-color: #f5f5f5;
+		border-radius: 0 0 10px 10px;
+		box-shadow: 0 0 10px #dfdfdf;
+		padding-bottom: 15px;
+		margin-bottom: 10px;
+	}
+	
 	&__assign {
+		padding: 5px 15px 15px 15px;
 		background-color: #FFF;
 	}
-	&__logo {
+	&__contact {
+		text-align: right;
+		margin-right: 15px;
+		
+		.phone--large {
+			font-size: 30px;
+			padding-left: 10px;
+
+		}
+	}
+
+	.assign {
 		text-align: right;
 	}
 }

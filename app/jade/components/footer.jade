@@ -1,33 +1,37 @@
 //- script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js')
 //- script(src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous")
 
+include ../block/social.jade
+
 script(src='/js/libs/jquery.2.1.3.min.js')
 script(src='/js/libs/owl.carousel.min.js')
 script(src='/js/libs/bootstrap/carousel.js')
+
 script(src='/js/libs/bootstrap/dropdown.js')
 script(src='/js/main.js')
 footer.p-footer
 	.container
-		.row
+		.row.p-footer__up
+			.col-50
+				.p-footer__social
+					+social-list
+
+
+
 			.col-50
 				.p-footer__contact
 					.phone
-						span
-						|тел. 94 140 54
-					.mail
-						span
-						|designgroup-spb@mail.ru
-					.location
-						span
-						|СПб, ул. Куйбышева дом 8
-
-			.col-50
-				.p-footer__logo
-						a.logo
-							img(src="/images/logo-2.jpg", alt="logo")
+						|тел.
+						span.phone--large
+							strong
+							|944 40 78
+						.copyright
+						|© 2015 Frontender shop	
 	.p-footer__assign
-		.assign.
-			Vitalii Yastremskii for InternetTrafficc
+		.container
+			.row
+				.assign.
+					Vitalii Yastremskii for InternetTrafficc
 
 
 
