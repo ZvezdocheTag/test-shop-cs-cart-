@@ -4,6 +4,15 @@
 
 jQuery(document).ready(function() {
 
+    // $('.navbar-toggle').on('click', function(){
+
+    //     if(!!($('#dropdown_menu').css('display', 'none'))) {
+    //         $('#dropdown_menu').css('display', 'block');
+    //     } else {
+    //         $('#dropdown_menu').css('display', 'none');
+    //     }
+    // })
+
 	$('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,

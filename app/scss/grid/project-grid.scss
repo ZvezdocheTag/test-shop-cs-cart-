@@ -1,4 +1,4 @@
-.col-30, .col-36, .col-50 {
+.col-30, .col-36, .col-40, .col-60, .col-70, .col-50 {
 	width: 100%;
 }
 
@@ -27,5 +27,13 @@
 .col-70 {
 	float: left;
 	width: 70%;
+}
+.col-40 {
+	float: left;
+	width: 40%;
+}
+.col-60 {
+	float: left;
+	width: 60%;
 }
 }
