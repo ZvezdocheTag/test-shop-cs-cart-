@@ -1,12 +1,20 @@
 .search-form {
+	padding: 10px 15px;
 	
 	&__input {
-		border: 2px solid #f0f;
+		width: calc(100% - 35px);
 		float: left;
+		padding-left: 10px;
+		border: 3px solid #F4F4f4;
+		
+		&:focus {
+			border: 1px solid #000;
+		}
 	}	
 	&__btn {
 		width: 30px;
 		height: 30px;
+		margin-left: 5px;
 		float: left;
 	}
 }

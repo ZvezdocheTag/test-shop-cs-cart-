@@ -1,4 +1,7 @@
 .service-menu {
+	background-color: #F8F8F8;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
 	.navbar-toggle {
 		float: left;
 		margin-left: 15px;
@@ -6,5 +9,9 @@
 
 	.collapse.navbar-collapse {
 		display: none;
+	}
+	.navbar.navbar-default {
+		margin-bottom: 0;
+		border: none;
 	}
 }

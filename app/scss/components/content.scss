@@ -1,0 +1,14 @@
+.p-slider {
+	.carousel-indicators {
+		bottom: 0;
+
+			li + li {		
+			margin-left: 5px;
+			
+			}
+
+			.active {
+				background-color: #1976D3;
+			}
+	}
+}
