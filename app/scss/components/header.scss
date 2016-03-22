@@ -12,7 +12,81 @@
 	&__contact, &__user-menu {
 		display: table;
 		margin: 0 auto;
+		padding: 15px 0;
+		
 	
+	}
+
+	&__contact {
+		i {
+			margin-right: 5px;
+			color: #EE522F;
+			font-size: 16px;
+		}
+
+		.phone, .mail {
+			margin-bottom: 5px;
+		}
+	}
+
+	&__user-menu {
+text-align: center;
+
+		.profile {
+			margin-bottom: 12px;
+				background-color: #C9C5C5;
+				color: #555;
+			padding: 4px 0;
+			font-size: 12px;
+			text-transform: uppercase;
+			font-weight: bold;
+			cursor: pointer;
+			transition: all 0.1s ease-out;
+			
+			
+			&:hover {
+
+			background-color: #d3d3d3;
+			transition: all 0.3s ease-out;
+			}
+			
+		}
+
+		.button--callback {
+			font-size: 12px;
+			padding: 5px 10px;
+			border: none;
+			background-color: #EE522F;
+			color: #FFF;
+			
+			
+			&:hover {
+				background-color: #ED6A50;
+			}
+		}
+		
+		.basket {
+			position: relative;
+			margin-bottom: 15px;
+			padding-right: 5px;
+			
+			&__name, &__order {
+				display: block;
+				line-height: 14px;
+			}
+
+			&__order {
+				font-size: 13px;
+				color: #dfd5;
+			}
+			
+			.icon-cart {
+				position: absolute;
+				top: 0px;
+				left: 10px;
+				font-size: 26px;
+			}
+		}
 	}
 }
 
@@ -68,3 +142,4 @@ input {
 	
 	
 }
+

@@ -1,4 +1,5 @@
 include ../libs/bootstrap/navbar
+include ../block/icons.jade
 
 section.service-menu
 	.container
@@ -11,9 +12,13 @@ section.service-menu
 				+nav_item("contact.html") Дизайн
 
 section.service-menu__form
-		form.search-form.clearfix
-			input(type="text",class="search-form__input",placeholder="найти товар")
-			button(type="submit",class="search-form__btn")
+	.container
+		.row
+			form.search-form.clearfix
+				input(type="text",class="search-form__input",placeholder="найти товар")
+				button(type="submit",class="search-form__btn")
+					svg.icon.icon-search
+						use(xlink:href='#icon-search')
 
 
 

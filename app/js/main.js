@@ -16,6 +16,7 @@ jQuery(document).ready(function() {
 	$('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
+    navText: ["<",">"],
     responsiveClass:true,
     responsive:{
         0:{
