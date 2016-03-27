@@ -143,3 +143,97 @@ input {
 	
 }
 
+
+@media (min-width: 600px) and (max-width: 991px) {
+	.p-header__contact, .p-header__user-menu {
+		display: block;
+	}
+
+	.p-header__logo {
+		min-height: 100px;
+		background-color: #1976d3;
+	}
+	.p-header__user-menu {
+		padding: 0;
+		margin: 0;
+		
+		.profile {
+			margin-bottom: 5px;
+			font-size: 10px;
+			margin: 5px 15px; 
+
+		}
+
+		.basket {
+			margin: 0 auto;
+			width: 190px;  
+			margin-bottom: 7px;
+			
+			.icon-cart {
+				left: 17px;
+				font-size: 22px;
+			}
+
+			&__order {
+				font-size: 12px;
+				 
+			}
+
+			&__name {
+				font-size: 13px; 
+			}
+		}
+		.button--callback {
+			margin-right: 13px; 
+			margin-left: 13px;
+			font-size: 11px;
+			padding: 5px 8px; 
+		}
+	}
+
+	.p-header__contact {
+		font-size: 12px;
+		padding-left: 5px; 
+		padding-right: 5px;
+		
+
+		
+		i {
+			font-size: 13px;
+			margin-right: 3px;  
+		}
+	}
+
+}
+
+@media (min-width: 992px) {
+
+	.p-header__contact, .p-header__user-menu {
+    display: block;
+    padding: 10px 0; 
+
+}
+	
+		.p-header__user-menu { 
+			text-align: right;
+		
+				.profile {
+					display: inline-block;
+					padding: 4px 35px; 
+					}
+
+				.basket {
+					width: auto;
+					 margin: 0;
+					 margin-bottom: 7px; 
+					 margin-right: 23px; 
+					 
+					 .icon-cart {
+					 	right: 95px;
+					 } 
+					}
+		}
+		
+
+}
+

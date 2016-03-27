@@ -1,4 +1,7 @@
 .service-menu--footer {
+	background-color: #FFF;
+	border-bottom: none;
+	border-top: none;   
 
 	.navbar.navbar-default {
 		margin-bottom: 0;
@@ -13,5 +16,15 @@
 		padding-left: 0;
 		text-transform: uppercase;
 	}
+
+
 	
 }
+
+@media (min-width: 600px) {
+	.navbar-brand {
+		display: none;
+	}
+
+}
+
