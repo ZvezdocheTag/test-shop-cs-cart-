@@ -189,7 +189,7 @@ input {
 			font-size: 11px;
 			padding: 5px 8px; 
 		}
-	}
+	}s
 
 	.p-header__contact {
 		font-size: 12px;
@@ -208,18 +208,26 @@ input {
 
 @media (min-width: 992px) {
 
+
+
 	.p-header__contact, .p-header__user-menu {
     display: block;
     padding: 10px 0; 
-
 }
+		.p-header__contact {
+		padding-left: 15px; 
+		}
 	
 		.p-header__user-menu { 
 			text-align: right;
+			padding-bottom: 0; 
 		
 				.profile {
 					display: inline-block;
 					padding: 4px 35px; 
+					margin-bottom: 5px; 
+					
+					
 					}
 
 				.basket {

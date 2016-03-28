@@ -22,6 +22,8 @@
 	margin-bottom: 20px;
 	
 	&__img {
+		height: 90px;
+		overflow: hidden;  
 		.carousel-indicators {
 			display: none;
 		}	
@@ -40,7 +42,6 @@
 
 	&__price {
 		text-align: center;
-		text-transform: uppercase;
 		font-weight: bold;
 		margin-bottom: 20px;
 		font-size: 13px;
